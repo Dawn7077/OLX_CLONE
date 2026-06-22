@@ -8,7 +8,7 @@ A full-stack OLX marketplace clone featuring user authentication, product manage
 
 This project is organized as a monorepo containing distinct applications for the client and server sides:
 
- 
+ ```text
 olx/
 ├── backend/          # Node.js + Express API server
 ├── frontend/         # React + Redux Toolkit SPA client
