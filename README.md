@@ -13,6 +13,7 @@ olx/
 ├── backend/          # Node.js + Express API server
 ├── frontend/         # React + Redux Toolkit SPA client
 └── README.md         # Documentation
+```
 🛠️ Tech Stack
 Frontend
 Framework: React (TypeScript)
@@ -71,11 +72,16 @@ Bash
 Install dependencies:
 
 Bash
+```bash
    npm install
+```
 Start the Vite/React development server:
 
 Bash
+```bash
    npm run dev
+```
+
 🔒 Environment & Security Note
 [!IMPORTANT]
 Local development files such as .env, node_modules/, and internal database storage layers (mongodOlx/) are ignored by Git tracking via isolated .gitignore files to safeguard secrets and optimize storage layouts.
